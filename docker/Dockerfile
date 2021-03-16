@@ -12,4 +12,4 @@ LABEL Descripción="Mi servicio web" Autor="Rubén Soria" Version="v1.0.0"
 
 # Se copian los ficheros hacia la carpeta de nginx
 
-COPY html /usr/share/nginx/html
+COPY /html /usr/share/nginx/html
